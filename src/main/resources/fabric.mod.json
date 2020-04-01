@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fatecrates",
+  "version": "0.1.0",
+  "name": "Fate Crates",
+  "description": "blessed lucky block mod",
+  "authors": [
+    "SuperCoder79",
+    "SynthRose"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/luckyblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "supercoder79.fatecrates.FateCrates"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.8+build.189",
+    "fabric": "*",
+    "minecraft": ">=1.16-"
+  }
+}
