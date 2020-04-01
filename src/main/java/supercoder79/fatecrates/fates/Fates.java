@@ -1,7 +1,7 @@
 package supercoder79.fatecrates.fates;
 
 import net.minecraft.util.collection.WeightedList;
-import supercoder79.fatecrates.fates.positive.IrritaterFate;
+import supercoder79.fatecrates.fates.positive.*;
 
 public class Fates {
     private static final int DEFAULT_WEIGHT = 5; //easy access for changes later
@@ -10,5 +10,6 @@ public class Fates {
 
     public static void init() {
         POSITIVE_FATES.add(new IrritaterFate(), DEFAULT_WEIGHT);
+        POSITIVE_FATES.add(new TinyPotatoFate(), DEFAULT_WEIGHT);
     }
 }
