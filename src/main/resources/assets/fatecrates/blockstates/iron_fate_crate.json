@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fatecrates:block/iron_fate_crate"
+    }
+  }
+}

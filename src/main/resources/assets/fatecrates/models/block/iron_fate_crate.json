@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "fatecrates:block/iron_fate_crate_end",
+    "side": "fatecrates:block/iron_fate_crate_side"
+  }
+}
