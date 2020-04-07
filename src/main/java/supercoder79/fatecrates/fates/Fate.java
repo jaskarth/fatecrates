@@ -5,4 +5,8 @@ import net.minecraft.world.World;
 
 public abstract class Fate {
     public abstract void operate(World world, BlockPos pos);
+
+    public void operateOnClient(World world, BlockPos pos) {
+
+    }
 }
